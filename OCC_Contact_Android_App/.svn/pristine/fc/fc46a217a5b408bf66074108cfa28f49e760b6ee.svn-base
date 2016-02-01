@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width ="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/bg2transparent" >
+
+    <ImageView
+        android:id="@+id/iV"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:id="@+id/updateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/iV"
+        android:ems="10" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iV"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateName"
+        android:layout_toRightOf="@+id/iV"
+        android:text="Email:" />
+    
+    <EditText
+        android:selectAllOnFocus="true"
+        android:id="@+id/updateEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10" >
+    </EditText>
+    
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btUpdate"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="75dp"
+                android:text="Class" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="Days" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/updateClass"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:id="@+id/updateDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/updateTime"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+ </TableLayout>
+
+    <Button
+        android:id="@+id/btBringInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_marginTop="20dp"
+        android:text="Bring Info" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:text="EnterClassName to Bring Information" />
+
+    <Button
+        android:id="@+id/btEditSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btBringInfo"
+        android:layout_toRightOf="@+id/btBringInfo"
+        android:text="Edit" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateEmail"
+        android:layout_centerHorizontal="true"
+        android:text="Phone #:" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:id="@+id/updateNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/iV"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btEditImage"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/iV"
+        android:layout_alignTop="@+id/updateNumber"
+        android:text="Choose Image" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateNumber"
+        android:layout_centerHorizontal="true"
+        android:text="Update Contact" />
+
+    <Button
+        android:id="@+id/btAddmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btEditSchedule"
+        android:layout_alignBottom="@+id/btEditSchedule"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Add Classes" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,158 @@
+[
+  {
+    "symbolicName": "bumpapi",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "78508ddc980ba58e2597863ee143492f982df103",
+    "jarFileModificationDate": "2012-06-05T13:47:58-07:00",
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\bump-api-android-master\\bump-api-android-master\\bump-api-library\\libs\\bumpapi.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "376123c0be2ad5456060e556b21fd4a117e3f075",
+    "jarFileModificationDate": "2013-03-10T20:52:02.410-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\tools\\support\\annotations.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "usb",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "95ecdbd8d054c713b1cef1a79e7408e6ff2dbe6d",
+    "jarFileModificationDate": "2013-03-10T22:19:52.431-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\add-ons\\addon-google_apis-google-17\\libs\\usb.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "effects",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "aff630294cc70d5253162e853906723a3ee7ecae",
+    "jarFileModificationDate": "2013-03-10T22:19:52.383-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\add-ons\\addon-google_apis-google-17\\libs\\effects.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "pinchzoom",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a4def992b1f41525748db059dfdd21322cc3157e",
+    "jarFileModificationDate": "2013-05-08T15:53:02.830-07:00",
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\libs\\pinchzoom.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "612846c9857077a039b533718f72db3bc041d389",
+    "jarFileModificationDate": "2012-11-06T09:41:50-08:00",
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\Bump with library\\BumpTest\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b50d42b32e1d8a6c2d5f19a846474d5e2199c68e",
+    "jarFileModificationDate": "2013-05-16T22:50:32.469-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\platforms\\android-10\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "307c1cc532eabbf1d135b43e5c983c9da700449d",
+    "jarFileModificationDate": "2013-03-11T20:34:43.373-07:00",
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "bumpapi",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "78508ddc980ba58e2597863ee143492f982df103",
+    "jarFileModificationDate": "2012-06-05T13:47:58-07:00",
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\Bump with library\\bump-api-library\\libs\\bumpapi.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2567fcef5bb2ca93e22a9df4f2dbf895daeb3e33",
+    "jarFileModificationDate": "2013-02-04T13:31:34.057-08:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\platforms\\android-8\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "maps",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4560b9e113b91553df6ee66d364cbf77acae566e",
+    "jarFileModificationDate": "2013-03-10T22:19:52.374-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\add-ons\\addon-google_apis-google-17\\libs\\maps.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "322db3959c3383f4be9daa75ffa427d1485879ad",
+    "jarFileModificationDate": "2013-03-10T21:40:18.779-07:00",
+    "location": "C:\\Users\\Jimmy\\android-sdks\\platforms\\android-17\\android.jar",
+    "javaRuntime": false
+  }
+]

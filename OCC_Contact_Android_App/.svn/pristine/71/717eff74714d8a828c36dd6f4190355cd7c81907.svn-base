@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/bg2transparent" >
+
+    <ImageView
+        android:id="@+id/myAddImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:id="@+id/myupdateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/myAddImage"
+        android:ems="10" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/myAddImage"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myupdateName"
+        android:layout_toRightOf="@+id/myAddImage"
+        android:text="Email:" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:id="@+id/myupdateEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/mybtAdd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myupdateNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Add/Update" />
+
+    <TableLayout
+        android:layout_below="@+id/mybtAdd"
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="75dp"
+                android:text="Class" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="Days" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditClass"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditTime"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditClass1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditDays1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditTime1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditClass2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditDays2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditTime2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditClass3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditDays3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:selectAllOnFocus="true"
+                android:id="@+id/myEditTime3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myupdateEmail"
+        android:layout_centerHorizontal="true"
+        android:text="Phone #:" />
+
+    <EditText
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:id="@+id/myupdateNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/myAddImage"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/mybtImage"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/myAddImage"
+        android:layout_alignTop="@+id/myupdateNumber"
+        android:text="Choose Image" />
+
+</RelativeLayout>
+</ScrollView>

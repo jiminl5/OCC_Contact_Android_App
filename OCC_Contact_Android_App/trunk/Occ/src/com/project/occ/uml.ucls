@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.project.occ.NoteEditor.LinedEditText" project="Occ" 
+    file="/Occ/src/com/project/occ/NoteEditor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="194" x="5074" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.project.occ.Map.MatrixChangeListener" project="Occ" 
+    file="/Occ/src/com/project/occ/Map.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="169" x="4341" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.project.occ.ContactData.DbHelper" project="Occ" 
+    file="/Occ/src/com/project/occ/ContactData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="216" x="4776" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.project.occ.ContactScheduleData" project="Occ" 
+    file="/Occ/src/com/project/occ/ContactScheduleData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="259" x="1829" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.project.occ.NotePad.Notes" project="Occ" 
+    file="/Occ/src/com/project/occ/NotePad.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="179" x="3866" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.project.occ.TitleEditor" project="Occ" 
+    file="/Occ/src/com/project/occ/TitleEditor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="157" x="70" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.project.occ.MyEditProfile" project="Occ" 
+    file="/Occ/src/com/project/occ/MyEditProfile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="195" x="267" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.project.occ.Tabs" project="Occ" file="/Occ/src/com/project/occ/Tabs.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="134" x="502" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.project.occ.Add" project="Occ" file="/Occ/src/com/project/occ/Add.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="195" x="676" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.project.occ.NotePad" project="Occ" 
+    file="/Occ/src/com/project/occ/NotePad.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="118" x="3927" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.project.occ.OccBrowser.ourViewClient" project="Occ" 
+    file="/Occ/src/com/project/occ/OccBrowser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="278" x="5308" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.project.occ.NotePadProvider" project="Occ" 
+    file="/Occ/src/com/project/occ/NotePadProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="271" x="4085" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.project.occ.NotesLiveFolder" project="Occ" 
+    file="/Occ/src/com/project/occ/NotesLiveFolder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="134" x="911" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.project.occ.Map" project="Occ" file="/Occ/src/com/project/occ/Map.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="196" x="4446" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.project.occ.Editcontact" project="Occ" 
+    file="/Occ/src/com/project/occ/Editcontact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="195" x="1085" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.project.occ.Classes" project="Occ" 
+    file="/Occ/src/com/project/occ/Classes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="195" x="1320" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.project.occ.ContactData" project="Occ" 
+    file="/Occ/src/com/project/occ/ContactData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="258" x="4776" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.project.occ.Menu" project="Occ" file="/Occ/src/com/project/occ/Menu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="234" x="1555" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.project.occ.NotesList" project="Occ" 
+    file="/Occ/src/com/project/occ/NotesList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="339" x="2128" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.project.occ.MyProfileData.MyDbHelper" project="Occ" 
+    file="/Occ/src/com/project/occ/MyProfileData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="216" x="5626" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.project.occ.ContactScheduleData.ScheduleDbHelper" project="Occ" 
+    file="/Occ/src/com/project/occ/ContactScheduleData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="216" x="1829" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.project.occ.Classmates" project="Occ" 
+    file="/Occ/src/com/project/occ/Classmates.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="195" x="2507" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.project.occ.MyProfileView" project="Occ" 
+    file="/Occ/src/com/project/occ/MyProfileView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="195" x="2742" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.project.occ.NoteEditor" project="Occ" 
+    file="/Occ/src/com/project/occ/NoteEditor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="230" x="5074" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.project.occ.View" project="Occ" file="/Occ/src/com/project/occ/View.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="195" x="3212" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.project.occ.Splash" project="Occ" file="/Occ/src/com/project/occ/Splash.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="195" x="2977" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.project.occ.OccBrowser" project="Occ" 
+    file="/Occ/src/com/project/occ/OccBrowser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="230" x="5344" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.project.occ.NotePadProvider.DatabaseHelper" project="Occ" 
+    file="/Occ/src/com/project/occ/NotePadProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="216" x="4085" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.project.occ.Map.PhotoTapListener" project="Occ" 
+    file="/Occ/src/com/project/occ/Map.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="186" x="4550" y="524"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.project.occ.MyProfileData" project="Occ" 
+    file="/Occ/src/com/project/occ/MyProfileData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="258" x="5626" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.project.occ.Email" project="Occ" file="/Occ/src/com/project/occ/Email.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="205" x="3447" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.project.occ.Testmenu" project="Occ" 
+    file="/Occ/src/com/project/occ/Testmenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="195" x="3692" y="-137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="33">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </nesting>  
+  <nesting id="34">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <nesting id="35">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <association id="36">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="37" name="scheduleHelper"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="39">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <nesting id="40">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="28"/>  
+  </nesting>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="42">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="43" name="myHelper"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="45">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="46">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="29"/>  
+  </nesting>  
+  <association id="47">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="48" name="ourHelper"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="50">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <association id="51">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="52" name="mOpenHelper"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

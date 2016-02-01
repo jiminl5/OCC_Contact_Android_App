@@ -1,0 +1,22 @@
+{
+  "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\gen": {
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\gen\u0027. Skipped."
+  },
+  "C:\\Users\\Jimmy\\android-sdks\\platforms\\android-17\\android.jar": {
+    "location": "C:\\Users\\Jimmy\\android-sdks\\platforms\\android-17\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Jimmy\\android-sdks\\platforms\\android-17\\android.jar\u0027. Neither fingerprint \u0027322db3959c3383f4be9daa75ffa427d1485879ad\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\src": {
+    "location": "C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Jimmy\\Desktop\\Programming\\ANDROID\\project\\Occ\\src\u0027. Skipped."
+  },
+  "C:\\Users\\Jimmy\\Desktop\\InteractiveChart\\InteractiveChart\\gen": {
+    "location": "C:\\Users\\Jimmy\\Desktop\\InteractiveChart\\InteractiveChart\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Jimmy\\Desktop\\InteractiveChart\\InteractiveChart\\gen\u0027. Skipped."
+  }
+}

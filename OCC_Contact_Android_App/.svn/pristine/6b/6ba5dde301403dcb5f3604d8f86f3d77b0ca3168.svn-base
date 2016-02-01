@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/bg2transparent" >
+
+    <TextView
+        android:id="@+id/resultName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="Empty Name"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/resultName"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/resultEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="Empty Email"/>
+
+    <Button
+        android:id="@+id/btEdit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btSendEmail"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/iView"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btEdit"
+        android:layout_alignRight="@+id/btEdit"
+        android:layout_centerVertical="true"
+        android:text="Delete" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btDel"
+        android:layout_marginTop="7dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView android:text="CLASS(es):"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"/>
+            <TextView android:text="DAYS:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"/>
+            <TextView android:text="TIME:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView android:text="Empty"
+                android:id="@+id/class2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"/>
+            <TextView android:text="Empty"
+                android:id="@+id/days2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"/>
+            <TextView android:text="Empty"
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btClearSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Clear Schedule" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btEdit"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:text="Name:" />
+
+    <Button
+        android:id="@+id/btSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btDel"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="Send Email" />
+
+    <ImageView
+        android:id="@+id/iView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/resultName"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultName"
+        android:layout_below="@+id/resultEmail"
+        android:text="Phone#:" />
+
+    <TextView
+        android:id="@+id/resultNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultEmail"
+        android:layout_below="@+id/textView3"
+        android:text="Empty #" />
+
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableLayout2"
+        android:layout_alignLeft="@+id/btSendEmail"
+        android:layout_alignRight="@+id/btSendEmail"
+        android:layout_alignTop="@+id/btDel"
+        android:text="Call" />
+
+</RelativeLayout>

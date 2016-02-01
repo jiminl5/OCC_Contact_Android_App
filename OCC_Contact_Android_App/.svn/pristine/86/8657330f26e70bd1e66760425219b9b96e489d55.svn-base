@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:title="Add New Contact"
+        android:id="@+id/adding" />
+    
+    <item
+        android:title="Exit"
+        android:id="@+id/exiting" />
+
+    
+</menu>
